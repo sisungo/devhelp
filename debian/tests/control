@@ -1,0 +1,3 @@
+Tests: libdevhelp-dev
+Restrictions: allow-stderr, superficial
+Depends: build-essential, libdevhelp-dev, pkg-config

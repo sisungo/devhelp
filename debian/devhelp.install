@@ -1,0 +1,8 @@
+usr/bin
+usr/lib/*/gedit/plugins/devhelp.plugin
+usr/lib/*/gedit/plugins/devhelp.py
+usr/share/applications
+usr/share/dbus-1/services
+usr/share/man
+usr/share/metainfo
+plugins/devhelp.vim usr/share/doc/devhelp/tools

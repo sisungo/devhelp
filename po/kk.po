@@ -1,0 +1,593 @@
+# Kazakh translation for devhelp.
+# Copyright (C) 2016 devhelp's COPYRIGHT HOLDER
+# This file is distributed under the same license as the devhelp package.
+# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2016-2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: devhelp master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/devhelp/issues\n"
+"POT-Creation-Date: 2021-07-24 08:30+0000\n"
+"PO-Revision-Date: 2021-08-29 19:45+0500\n"
+"Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
+"Language-Team: Kazakh <kk_KZ@googlegroups.com>\n"
+"Language: kk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+
+#. Translators: please don't translate "Devhelp" (it's marked as
+#. * translatable for transliteration only).
+#.
+#: data/org.gnome.Devhelp.appdata.xml.in.in:6
+#: data/org.gnome.Devhelp.desktop.in.in:3 src/dh-app.c:141 src/dh-app.c:471
+msgid "Devhelp"
+msgstr "Devhelp"
+
+#: data/org.gnome.Devhelp.appdata.xml.in.in:7
+#: data/org.gnome.Devhelp.desktop.in.in:4 src/dh-app.c:143
+msgid "A developer tool for browsing and searching API documentation"
+msgstr "API құжаттарын қарауға және іздеуге арналған әзірлеуші ​​құралы"
+
+#: data/org.gnome.Devhelp.appdata.xml.in.in:9
+msgid ""
+"Devhelp is a developer tool for browsing and searching API documentation. It "
+"provides an easy way to navigate through libraries and to search by function, "
+"struct, or macro."
+msgstr ""
+"Devhelp - бұл API құжаттарын қарауға және іздеуге арналған әзірлеуші ​​құралы. "
+"Ол кітапханаларды шолу және функция, құрылым немесе макро бойынша іздеудің "
+"қарапайым жолын ұсынады."
+
+#: data/org.gnome.Devhelp.appdata.xml.in.in:14
+msgid ""
+"The documentation must be installed locally, so an internet connection is not "
+"needed to use Devhelp."
+msgstr ""
+"Құжаттама жергілікті түрде орнатылуы керек, сондықтан Devhelp бағдарламасын "
+"пайдалану үшін Интернет байланысы қажет емес."
+
+#: data/org.gnome.Devhelp.appdata.xml.in.in:18
+msgid ""
+"Devhelp works natively with GTK-Doc, so the GTK and GNOME libraries are well "
+"supported. But other development platforms can be supported as well, as long "
+"as the API documentation is available in HTML and a *.devhelp2 index file is "
+"generated."
+msgstr ""
+"Devhelp GTK-Doc бағдарламасымен бірге жұмыс істейді, сондықтан GTK және GNOME "
+"кітапханаларына жақсы қолдау көрсетіледі. Бірақ HTML-де API құжаттамасы бар "
+"және * .devhelp2 индекс файлы жасалған болса, басқа да әзірлеу платформаларына "
+"қолдау көрсетіледі."
+
+#: data/org.gnome.Devhelp.appdata.xml.in.in:24
+msgid ""
+"Devhelp integrates with other applications such as Glade, Builder or Anjuta, "
+"and plugins are available for different text editors (gedit, Vim, Emacs, "
+"Geany, …)."
+msgstr ""
+"Devhelp Glade, Builder немесе Anjuta сияқты басқа қосымшалармен біріктірілген "
+"және плагиндер әртүрлі мәтіндік редакторларға қол жетімді (gedit, Vim, Emacs, "
+"Geany…)."
+
+#: data/org.gnome.Devhelp.appdata.xml.in.in:36
+msgid "Devhelp's main window, showing a list of books in the side panel."
+msgstr ""
+"Devhelp қолданбасының бүйір панельдегі кітаптар тізімін көрсететін негізгі "
+"терезесі."
+
+#: data/org.gnome.Devhelp.appdata.xml.in.in:40
+msgid "Devhelp's main window, showing an open book."
+msgstr "Devhelp қолданбасының ашық кітапты көрсететін негізгі терезесі."
+
+#: data/org.gnome.Devhelp.appdata.xml.in.in:44
+msgid "Devhelp supports opening multiple books within the same window."
+msgstr "Devhelp бір терезе ішінде бірнеше кітап ашуды қолдайды."
+
+#: data/org.gnome.Devhelp.appdata.xml.in.in:48
+msgid ""
+"Devhelp supports HTML documentation formats, including gi-docgen and gtk-doc."
+msgstr ""
+"Devhelp HTML құжаттама пішімдерін қолдайды, соның ішінде gi-docgen және gtk-"
+"doc."
+
+#: data/org.gnome.Devhelp.desktop.in.in:5
+msgid "API Documentation Browser"
+msgstr "API құжаттамасын шолушысы"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.gnome.Devhelp.desktop.in.in:7
+msgid "documentation;information;manual;developer;api;"
+msgstr ""
+"documentation;information;manual;developer;api;құжаттама;ақпарат;нұсқаулық;"
+"өндіруші;"
+
+#: data/org.gnome.devhelp.gschema.xml:16
+msgid "Main window maximized state"
+msgstr "Басты терезенің максималды күйі"
+
+#: data/org.gnome.devhelp.gschema.xml:17
+msgid "Whether the main window should start maximized."
+msgstr "Басты терезе жазық түрінде ашылуы тиіс пе."
+
+#: data/org.gnome.devhelp.gschema.xml:21
+msgid "Width of the main window"
+msgstr "Басты терезенің ені"
+
+#: data/org.gnome.devhelp.gschema.xml:22
+msgid "The width of the main window."
+msgstr "Басты терезенің ені."
+
+#: data/org.gnome.devhelp.gschema.xml:26
+msgid "Height of main window"
+msgstr "Басты терезенің биіктігі"
+
+#: data/org.gnome.devhelp.gschema.xml:27
+msgid "The height of the main window."
+msgstr "Басты терезенің биіктігі."
+
+#: data/org.gnome.devhelp.gschema.xml:33
+msgid "Width of the index and search pane"
+msgstr "Индекс пен іздеу панелінің ені"
+
+#: data/org.gnome.devhelp.gschema.xml:34
+msgid "The width of the index and search pane."
+msgstr "Индекс пен іздеу панелінің ені."
+
+#: data/org.gnome.devhelp.gschema.xml:43
+msgid "Width of the assistant window"
+msgstr "Көмекші терезенің ені"
+
+#: data/org.gnome.devhelp.gschema.xml:44
+msgid "The width of the assistant window."
+msgstr "Көмекші терезенің ені."
+
+#: data/org.gnome.devhelp.gschema.xml:48
+msgid "Height of assistant window"
+msgstr "Көмекші терезенің биіктігі"
+
+#: data/org.gnome.devhelp.gschema.xml:49
+msgid "The height of the assistant window."
+msgstr "Көмекші терезенің биіктігі."
+
+#: data/org.gnome.libdevhelp.gschema.xml.in:9
+msgid "Books disabled"
+msgstr "Сөндірілген кітаптар"
+
+#: data/org.gnome.libdevhelp.gschema.xml.in:10
+msgid "List of books disabled by the user."
+msgstr "Пайдаланушы сөндірген кітаптар тізімі."
+
+#: data/org.gnome.libdevhelp.gschema.xml.in:14
+msgid "Group books by language"
+msgstr "Кітаптарды тіл бойынша топтау"
+
+#: data/org.gnome.libdevhelp.gschema.xml.in:15
+msgid ""
+"Whether books should be grouped by programming language in the user interface."
+msgstr ""
+"Кітаптарды пайдаланушы интерфейсінде бағдарламалау тілі бойынша топтастыру "
+"керек пе."
+
+#: data/org.gnome.libdevhelp.gschema.xml.in:21
+msgid "Use system fonts"
+msgstr "Жүйелік қаріптерді қолдану"
+
+#: data/org.gnome.libdevhelp.gschema.xml.in:22
+msgid "Use the system default fonts."
+msgstr "Жүйелік негізгі қаріптерді қолдану."
+
+#: data/org.gnome.libdevhelp.gschema.xml.in:26
+msgid "Font for text"
+msgstr "Мәтін үшін қаріп"
+
+#: data/org.gnome.libdevhelp.gschema.xml.in:27
+msgid "Font for text with variable width."
+msgstr "Ені ауыспалы болатын мәтін үшін қаріп."
+
+#: data/org.gnome.libdevhelp.gschema.xml.in:31
+msgid "Font for fixed width text"
+msgstr "Ені тұрақты болатын мәтін үшін қаріп"
+
+#: data/org.gnome.libdevhelp.gschema.xml.in:32
+msgid "Font for text with fixed width, such as code examples."
+msgstr "Ені тұрақты болатын, код үлгілері сияқты, мәтін үшін қаріп."
+
+#: devhelp/dh-assistant-view.c:385
+msgid "Book:"
+msgstr "Кітап:"
+
+#: devhelp/dh-book.c:298
+#, c-format
+msgid "Language: %s"
+msgstr "Тілі: %s"
+
+#: devhelp/dh-book.c:299
+msgid "Language: Undefined"
+msgstr "Тілі: анықталмаған"
+
+#: devhelp/dh-book-tree.c:749
+msgid "_Collapse All"
+msgstr "Барл_ығын жинау"
+
+#. i18n: a documentation book
+#: devhelp/dh-link.c:536
+msgid "Book"
+msgstr "Кітап"
+
+#. i18n: a "page" in a documentation book
+#: devhelp/dh-link.c:540
+msgid "Page"
+msgstr "Парақ"
+
+#. i18n: a search hit in the documentation, could be a
+#. * function, macro, struct, etc
+#: devhelp/dh-link.c:545
+msgid "Keyword"
+msgstr "Кілт сөз"
+
+#. i18n: in the programming language context, if you don't
+#. * have an ESTABLISHED term for it, leave it
+#. * untranslated.
+#: devhelp/dh-link.c:551
+msgid "Function"
+msgstr "Функция"
+
+#. i18n: in the programming language context, if you don't
+#. * have an ESTABLISHED term for it, leave it
+#. * untranslated.
+#: devhelp/dh-link.c:557
+msgid "Struct"
+msgstr "Структура"
+
+#. i18n: in the programming language context, if you don't
+#. * have an ESTABLISHED term for it, leave it
+#. * untranslated.
+#: devhelp/dh-link.c:563
+msgid "Macro"
+msgstr "Макрос"
+
+#. i18n: in the programming language context, if you don't
+#. * have an ESTABLISHED term for it, leave it
+#. * untranslated.
+#: devhelp/dh-link.c:569
+msgid "Enum"
+msgstr "Нөмірлегін"
+
+#. i18n: in the programming language context, if you don't
+#. * have an ESTABLISHED term for it, leave it
+#. * untranslated.
+#: devhelp/dh-link.c:575
+msgid "Type"
+msgstr "Түрі"
+
+#. i18n: in the programming language context, if you don't
+#. * have an ESTABLISHED term for it, leave it
+#. * untranslated.
+#: devhelp/dh-link.c:581
+msgid "Property"
+msgstr "Қасиеті"
+
+#. i18n: in the programming language context, if you don't
+#. * have an ESTABLISHED term for it, leave it
+#. * untranslated.
+#: devhelp/dh-link.c:587
+msgid "Signal"
+msgstr "Сигнал"
+
+#: devhelp/dh-web-view.c:674
+msgid "Empty Page"
+msgstr "Бос парақ"
+
+#: plugins/gedit-plugin/devhelp.plugin.desktop.in:6
+msgid "Devhelp support"
+msgstr "Devhelp қолдауы"
+
+#: plugins/gedit-plugin/devhelp.py:42
+msgid "Show API Documentation"
+msgstr "API құжаттамасын көрсету"
+
+#: src/dh-app.c:140
+msgid "Devhelp (development build)"
+msgstr "Devhelp (әзірлеу жинағы)"
+
+#: src/dh-app.c:145
+msgid "translator-credits"
+msgstr "Baurzhan Muftakhidinov <baurthefirst@gmail.com>"
+
+#: src/dh-app.c:147
+msgid "Devhelp Website"
+msgstr "Devhelp вебсайты"
+
+#: src/dh-app.c:375
+msgid "Opens a new Devhelp window"
+msgstr "Жаңа Devhelp терезесін ашады"
+
+#: src/dh-app.c:380
+msgid "Search for a keyword"
+msgstr "Кілтсөзді іздеу"
+
+#: src/dh-app.c:381 src/dh-app.c:386
+msgid "KEYWORD"
+msgstr "КІЛТСӨЗ"
+
+#: src/dh-app.c:385
+msgid "Search and display any hit in the assistant window"
+msgstr "Көмекші терезесінде іздеу және кез келген сәйкестікті көрсету"
+
+#: src/dh-app.c:390
+msgid "Display the version and exit"
+msgstr "Нұсқасын шығару және шығу"
+
+#: src/dh-app.c:395
+msgid "Quit any running Devhelp"
+msgstr "Орындалып тұрған Devhelp нұсқаларының жұмысын аяқтау"
+
+#. Please don't translate "Devhelp"
+#: src/dh-assistant.ui:13
+msgid "Devhelp — Assistant"
+msgstr "Devhelp — Көмекші"
+
+#: src/dh-preferences.c:536
+msgid "Enabled"
+msgstr "Іске қосулы"
+
+#: src/dh-preferences.c:550
+msgid "Title"
+msgstr "Атауы"
+
+#: src/dh-preferences.ui:12
+msgid "Preferences"
+msgstr "Баптаулар"
+
+#: src/dh-preferences.ui:48
+msgid "_Group by language"
+msgstr "Топ бойынша то_птау"
+
+#: src/dh-preferences.ui:90
+msgid "Book Shelf"
+msgstr "Кітап сөресі"
+
+#: src/dh-preferences.ui:111
+msgid "_Use system fonts"
+msgstr "Жүйелік қаріптерді қ_олдану"
+
+#: src/dh-preferences.ui:135
+msgid "_Variable width: "
+msgstr "А_йнымалы ені: "
+
+#: src/dh-preferences.ui:148
+msgid "_Fixed width:"
+msgstr "Бе_кітілген ені:"
+
+#: src/dh-preferences.ui:209
+msgid "Fonts"
+msgstr "Қаріптер"
+
+#: src/dh-window.ui:7
+msgid "New _Window"
+msgstr "Жаңа _терезе"
+
+#: src/dh-window.ui:13
+msgid "_Print"
+msgstr "Бас_паға шығару"
+
+#: src/dh-window.ui:17
+msgid "_Find"
+msgstr "_Табу"
+
+#: src/dh-window.ui:23
+msgid "_Larger Text"
+msgstr "Ү_лкенірек мәтін"
+
+#: src/dh-window.ui:27
+msgid "S_maller Text"
+msgstr "Кі_шірек мәтін"
+
+#: src/dh-window.ui:31
+msgid "_Normal Size"
+msgstr "Қалы_пты өлшемі"
+
+#: src/dh-window.ui:37
+msgid "_Preferences"
+msgstr "_Баптаулар"
+
+#: src/dh-window.ui:41
+msgid "_Keyboard Shortcuts"
+msgstr "П_ернетақта жарлықтары"
+
+#: src/dh-window.ui:45
+msgid "_Help"
+msgstr "Кө_мек"
+
+#: src/dh-window.ui:49
+msgid "_About Devhelp"
+msgstr "Devhelp тур_алы"
+
+#: src/dh-window.ui:77
+msgid "Back"
+msgstr "Кері"
+
+#: src/dh-window.ui:96
+msgid "Forward"
+msgstr "Алға"
+
+#: src/dh-window.ui:121
+msgid "Toggle Side Panel"
+msgstr "Бүйір панелін көрсету/жасыру"
+
+#: src/dh-window.ui:162
+msgid "New Tab"
+msgstr "Жаңа бет"
+
+#: src/help-overlay.ui:14
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Жалпы"
+
+#: src/help-overlay.ui:19
+msgctxt "shortcut window"
+msgid "Focus global search"
+msgstr "Глобалды іздеу өрісіне фокусты орнату"
+
+#: src/help-overlay.ui:26
+msgctxt "shortcut window"
+msgid "Find in current page"
+msgstr "Ағымдағы парақтан табу"
+
+#: src/help-overlay.ui:33
+msgctxt "shortcut window"
+msgid "Find the next match"
+msgstr "Келесі сәйкестікті табу"
+
+#: src/help-overlay.ui:40
+msgctxt "shortcut window"
+msgid "Find the previous match"
+msgstr "Алдыңғы сәйкестікті табу"
+
+#: src/help-overlay.ui:48
+msgctxt "shortcut window"
+msgid "Open a new window"
+msgstr "Жаңа терезені ашу"
+
+#: src/help-overlay.ui:55
+msgctxt "shortcut window"
+msgid "Open a new tab"
+msgstr "Жаңа бетті ашу"
+
+#: src/help-overlay.ui:62
+msgctxt "shortcut window"
+msgid "Toggle side panel visibility"
+msgstr "Бүйір панелін көрсету/жасыру"
+
+#: src/help-overlay.ui:69
+msgctxt "shortcut window"
+msgid "Go back"
+msgstr "Артқа өту"
+
+#: src/help-overlay.ui:76
+msgctxt "shortcut window"
+msgid "Go forward"
+msgstr "Алға өту"
+
+#: src/help-overlay.ui:83
+msgctxt "shortcut window"
+msgid "Print"
+msgstr "Баспаға шығару"
+
+#: src/help-overlay.ui:90
+msgctxt "shortcut window"
+msgid "Close the current window"
+msgstr "Ағымдағы терезені жабу"
+
+#: src/help-overlay.ui:97
+msgctxt "shortcut window"
+msgid "Close all windows"
+msgstr "Барлық терезелерді жабу"
+
+#: src/help-overlay.ui:105
+msgctxt "shortcut window"
+msgid "Zoom"
+msgstr "Масштаб"
+
+#: src/help-overlay.ui:110
+msgctxt "shortcut window"
+msgid "Zoom in"
+msgstr "Үлкейту"
+
+#: src/help-overlay.ui:117
+msgctxt "shortcut window"
+msgid "Zoom out"
+msgstr "Кішірейту"
+
+#: src/help-overlay.ui:124
+msgctxt "shortcut window"
+msgid "Reset Zoom"
+msgstr "Масштабты тастау"
+
+#~ msgid "_Quit"
+#~ msgstr "_Шығу"
+
+#~ msgid "Larger text"
+#~ msgstr "Үлкенірек мәтін"
+
+#~ msgid "Smaller text"
+#~ msgstr "Кішірек мәтін"
+
+#~ msgid "Normal size"
+#~ msgstr "Қалыпты өлшемі"
+
+#~ msgid "_About"
+#~ msgstr "О_сы туралы"
+
+#~ msgid "devhelp"
+#~ msgstr "devhelp"
+
+#~ msgid "X position of main window"
+#~ msgstr "Басты терезенің X орны"
+
+#~ msgid "The X position of the main window."
+#~ msgstr "Басты терезенің X орны."
+
+#~ msgid "Y position of main window"
+#~ msgstr "Басты терезенің Y орны"
+
+#~ msgid "The Y position of the main window."
+#~ msgstr "Басты терезенің Y орны."
+
+#~ msgid "Whether the assistant window should be maximized"
+#~ msgstr "Көмекші терезе жазық түрінде ашылуы тиіс пе"
+
+#~ msgid "Whether the assistant window should be maximized."
+#~ msgstr "Көмекші терезе жазық түрінде ашылуы тиіс пе."
+
+#~ msgid "X position of assistant window"
+#~ msgstr "Көмекші терезенің X орны"
+
+#~ msgid "The X position of the assistant window."
+#~ msgstr "Көмекші терезенің X орны."
+
+#~ msgid "Y position of assistant window"
+#~ msgstr "Көмекші терезенің Y орны"
+
+#~ msgid "The Y position of the assistant window."
+#~ msgstr "Көмекші терезенің Y орны."
+
+#~ msgid "A developers’ help browser for GNOME"
+#~ msgstr "GNOME ортасы үшін өндірушілер құжаттамасын шолушысы"
+
+#~ msgid "50%"
+#~ msgstr "50%"
+
+#~ msgid "75%"
+#~ msgstr "75%"
+
+#~ msgid "100%"
+#~ msgstr "100%"
+
+#~ msgid "125%"
+#~ msgstr "125%"
+
+#~ msgid "150%"
+#~ msgstr "150%"
+
+#~ msgid "175%"
+#~ msgstr "175%"
+
+#~ msgid "200%"
+#~ msgstr "200%"
+
+#~ msgid "300%"
+#~ msgstr "300%"
+
+#~ msgid "400%"
+#~ msgstr "400%"
+
+#~ msgid "_Close"
+#~ msgstr "_Жабу"
+
+#~ msgid "Side _Panel"
+#~ msgstr "Бүйір _панелі"
+
+#~ msgid "_Side pane"
+#~ msgstr "Бү_йір панелі"

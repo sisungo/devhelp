@@ -1,0 +1,19 @@
+#!/usr/bin/make -f
+
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+export DEB_LDFLAGS_MAINT_APPEND = -Wl,-O1 -Wl,-z,defs
+export DPKG_GENSYMBOLS_CHECK_LEVEL = 4
+
+%:
+	dh $@
+
+override_dh_auto_configure:
+	dh_auto_configure -- -Dgtk_doc=true -Dflatpak_build=false -Dplugin_emacs=true -Dplugin_gedit=true -Dplugin_vim=false
+
+override_dh_installemacsen:
+	cp plugins/devhelp.el debian/devhelp.emacsen-startup
+	dh_installemacsen
+	rm debian/devhelp.emacsen-startup
+
+override_dh_python3:
+	dh_python3 -pdevhelp /usr/lib/$(DEB_HOST_MULTIARCH)/gedit/plugins

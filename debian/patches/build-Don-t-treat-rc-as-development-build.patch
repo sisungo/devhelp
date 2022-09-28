@@ -1,0 +1,22 @@
+From: Jeremy Bicha <jbicha@debian.org>
+Date: Tue, 7 Sep 2021 21:10:51 -0400
+Subject: build: Don't treat rc as development build
+
+https://gitlab.gnome.org/GNOME/devhelp/-/issues/54
+---
+ meson.build | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/meson.build b/meson.build
+index 67f025a..b308ddb 100644
+--- a/meson.build
++++ b/meson.build
+@@ -71,7 +71,7 @@ DEVHELP_APP_DEPS = [
+ ]
+ 
+ devhelp_version = meson.project_version().split('.')
+-devhelp_is_devel = devhelp_version[1] in ['alpha', 'beta', 'rc']
++devhelp_is_devel = devhelp_version[1] in ['alpha', 'beta']
+ devel_build = get_option('profile') == 'devel' or devhelp_is_devel
+ 
+ if devel_build
