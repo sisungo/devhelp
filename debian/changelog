@@ -1,3 +1,9 @@
+devhelp (41.2-1deepin1) unstable; urgency=medium
+
+  * Fix meson api change that prevents this package to be built
+
+ -- sisungo <sisungo@icloud.com>  Sat, 04 Oct 2025 12:54:33 +0800
+
 devhelp (41.2-1) unstable; urgency=medium
 
   * New upstream release

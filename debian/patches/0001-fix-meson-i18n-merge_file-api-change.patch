@@ -1,0 +1,45 @@
+From 773e311e3f114653b094f743e3e32ec123551c47 Mon Sep 17 00:00:00 2001
+From: sisungo <sisungo@icloud.com>
+Date: Sat, 4 Oct 2025 12:52:28 +0800
+Subject: [PATCH] fix: meson i18n.merge_file api change
+
+---
+ data/meson.build                 | 2 --
+ plugins/gedit-plugin/meson.build | 1 -
+ 2 files changed, 3 deletions(-)
+
+diff --git a/data/meson.build b/data/meson.build
+index c6aeffb..0bc531a 100644
+--- a/data/meson.build
++++ b/data/meson.build
+@@ -19,7 +19,6 @@ appdata_conf = configuration_data()
+ appdata_conf.set('application_id', APPLICATION_ID)
+ appdata = APPLICATION_ID + '.appdata.xml'
+ appdata_file = I18N.merge_file(
+-  appdata,
+   input: configure_file(
+     input: 'org.gnome.Devhelp.appdata.xml.in.in',
+     output: APPLICATION_ID + '.appdata.xml.in',
+@@ -45,7 +44,6 @@ desktop_conf = configuration_data()
+ desktop_conf.set('application_id', APPLICATION_ID)
+ desktop = APPLICATION_ID + '.desktop'
+ desktop_file = I18N.merge_file(
+-  desktop,
+   type: 'desktop',
+   input: configure_file(
+     input: 'org.gnome.Devhelp.desktop.in.in',
+diff --git a/plugins/gedit-plugin/meson.build b/plugins/gedit-plugin/meson.build
+index 4f77988..877a01f 100644
+--- a/plugins/gedit-plugin/meson.build
++++ b/plugins/gedit-plugin/meson.build
+@@ -7,7 +7,6 @@ install_data(
+ 
+ plugin_info_file = 'devhelp.plugin'
+ I18N.merge_file(
+-  plugin_info_file,
+   type: 'desktop',
+   input: plugin_info_file + '.desktop.in',
+   output: plugin_info_file,
+-- 
+2.50.1
+

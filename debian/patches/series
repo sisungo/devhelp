@@ -1,2 +1,3 @@
 00install-devhelp-el.patch
 build-Don-t-treat-rc-as-development-build.patch
+0001-fix-meson-i18n-merge_file-api-change.patch
